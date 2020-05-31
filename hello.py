@@ -6,7 +6,6 @@ for i in range(1,n):
 	for j in range(2,int(i/2+2)):
 		if i%j  == 0:
 			break
-		
 	else:
 		print(i)
 
